@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <title>index</title>
+       <style>
+           h1{
+               text-align:center;
+               text-shadow: 2px 2px 5px red;
+               color: darkblue;
+           }
+           body{
+               font-family: 'Courier New', Courier, monospace;
+               text-transform: capitalize;
+           }
+           .contain{
+               display: flex;
+               gap: 2rem;
+               justify-content:center;
+               align-items:center;
+               height: 100vh;
+              
+           }
+           .jayamma{
+               flex:1;
+               max-width: 400px;
+               
+               background-color: aqua;
+               text-align: center;
+               padding: 10px;
+               
+           }
+           .sharanesh{
+               font-size: 30px;
+               margin-bottom: 20px;
+               font-weight: bolder;
+           }
+           .yashu{
+               font-size:30px;
+               margin-bottom: 40px;
+               font-weight: bold;
+               font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+           }
+           .srusti{
+               font-size: large;
+               list-style:decimal-leading-zero;
+               color:red;
+               margin-bottom: 30px;
+           }
+           .srusti,li{
+               margin-bottom: 10px;
+           }
+           .recharge{
+               color: white;
+               background-color: red;
+               border: none;
+               border-radius:5px;
+           }
+           .mani{
+               color: white;
+               
+           }
+           @media(max-width:1000px){
+               .contain{
+                   flex-direction: column;
+                   height: 100%;
+               }
+           }
+       </style>
+   </head>
+   <body>
+       <h1>recharge information</h1>
+       <div class="contain">
+           <div class="jayamma">
+               <div class="sharanesh"> basic</div>
+               <div class="yashu">$9-$10/1 month plan</div>
+               <ol class="srusti">
+                   <li>full talk time</li>
+                   <li>2 Gb data/day</li>
+                   <li>$19 rs 1 gb data/day</li>
+               </ol>
+               <div><button class="recharge"><a class="mani" href="./ref.html">recharge</a></button></div>
+           </div>
+           <div class="jayamma">
+               <div class="sharanesh">6 month paln</div>
+               <div class="yashu">$50-$60/6 month plan</div>
+               <ol class="srusti">
+                   <li>full talk time</li>
+                   <li>4 Gb data/day</li>
+                   <li>$29 rs 2 gb data/day</li>
+               </ol>
+               <div><button class="recharge"><a class="mani" href="./ref.html">recharge</a></button></div>
+           </div>
+           <div class="jayamma">
+               <div class="sharanesh"> 1 year plan </div>
+               <div class="yashu">$100 -$110/ 1 year</div>
+               <ol class="srusti">
+                   <li>full talk time</li>
+                   <li>unlimited</li>
+                   <li>$59 rs 5 gb data/day</li>
+               </ol> 
+               <div><button class="recharge"><a class="mani" href="./ref.html">recharge</a></button></div>
+           </div>
+           <div class="jayamma">
+               <div class="sharanesh">small recharge</div>
+               <div class="yashu">1 day recharge</div>
+               <ol class="srusti">
+                   <li>$19 1 gb recharge</li>
+                   <li>$29 2 gb recharge</li>
+                   <li>$59 5 gb recharge</li>
+               </ol>
+             <div><button class="recharge"><a class="mani" href="./ref.html">recharge</a></button></div>
+           </div>
+       </div>
+   </body>
+</html>
